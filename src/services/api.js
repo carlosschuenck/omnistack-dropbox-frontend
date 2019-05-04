@@ -1,7 +1,8 @@
-import axios from 'axios';
+import axios from "axios";
 
 const api = axios.create({
-    baseURL: 'https://dropbox-backend-omnistack.herokuapp.com'
+  // baseURL: 'https://dropbox-backend-omnistack.herokuapp.com',
+  baseURL: "http://localhost:3333/"
 });
 
 export default api;

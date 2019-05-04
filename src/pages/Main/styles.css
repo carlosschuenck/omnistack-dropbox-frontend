@@ -40,3 +40,11 @@
 .click {
   cursor: pointer;
 }
+
+.action-button {
+  padding-top: 3px !important;
+}
+
+.row-table {
+  width: 100%;
+}
