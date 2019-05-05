@@ -5,8 +5,6 @@
 
 #box-container header {
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 #box-container header h1 {
@@ -16,8 +14,12 @@
   border-left: 1px solid #ddd;
 }
 
-#box-container header button svg {
-  margin-right: 10px;
+#box-container h1 {
+  margin-top: 0.3rem;
+}
+
+#box-container img {
+  margin-top: -0.3rem;
 }
 
 #box-container header button:hover {
@@ -67,4 +69,16 @@
 #box-container ul li span {
   color: #999;
   font-size: 13px;
+}
+
+#buttom {
+  background: #7159c1;
+  border-color: #7159c1;
+  font-size: 16px;
+  color: #fff;
+}
+
+#back-button-aling {
+  margin-top: -0.05rem;
+  padding-left: 0px;
 }
